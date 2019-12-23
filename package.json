@@ -1,0 +1,30 @@
+{
+  "name": "miroshnikoff84.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miroshnikoff84/miroshnikoff84.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miroshnikoff84/miroshnikoff84.github.io/issues"
+  },
+  "homepage": "https://github.com/miroshnikoff84/miroshnikoff84.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-minify-css": "^1.2.4",
+    "sass-lint": "^1.13.1"
+  }
+}

@@ -1,0 +1,118 @@
+.hero
+  position: relative
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: flex-start
+  padding-top: 100px
+  background: $dark url('../img/hero-bg.jpg') no-repeat center/cover
+  height: 100vh
+  color: $light
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: rgba($dark, 0.7)
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    width: 100%
+    height: 3.46rem
+    background-color: $dark   
+  &__container
+    &__hero__title
+      width: 300px    
+  &__content
+    max-width: 47.85rem
+    position: relative
+    margin-left: 2.7rem  
+  &__text
+    margin-top: 0.714rem
+    margin-bottom: 3.5rem
+    font-size: 1.57rem
+    line-height: 131%
+    max-width: 500px    
+  &__instagram
+    position: absolute
+    left: 0
+    top: 0
+    max-width: 5.7rem
+    height: 100%
+  &__scroll-down
+    position: absolute
+    z-index: 3
+    display: flex
+    justify-content: center
+    align-items: center
+    left: 0
+    bottom: 0
+    min-width: 17.6rem
+    min-height: 6.92rem
+    background-color: $dark
+    text-transform: uppercase
+    text-decoration: none
+    color: $light
+    &::after
+      content: ''
+      background: url('../img/arrow-down.svg') no-repeat center
+      width: 30px
+      height: 30px
+      border: 2px solid $primary
+      border-radius: 50%
+      margin-left: 12px
+  &__scroll-top 
+    position: fixed
+    z-index: 4
+    display: none
+    right: 0
+    bottom: 0
+    margin-right: 20px
+    margin-bottom: 30px
+    min-width: 2.5rem
+    min-height: 2.5rem
+    cursor: pointer
+    &::after
+      content: ''
+      background: url('../img/arrow-top.svg') no-repeat center 
+      padding: 7px 15px
+      border: 2px solid $primary
+      border-radius: 50%  
+.button
+  &__hero
+    margin-right: 20px
+    margin-bottom: 170px
+.instagram
+  display: flex
+  justify-content: center
+  margin-top: -1.4rem
+  background-color: $dark
+  &__link
+    display: flex
+    align-items: center
+    text-transform: uppercase
+    text-decoration: none
+    color: $primary
+    transform: rotate(90deg)
+    line-height: 0.8
+    font-size: 1.1rem
+    &::after
+      content: ''
+      width: 50px
+      height: 1px
+      background-color: $primary
+      margin-left: 8px
+
+.title
+  margin-bottom: 1rem
+  font-family: 'Yeseva One', cursive  
+  text-transform: uppercase  
+  font-size: 2.857rem
+  line-height: 1.4 
+  &--primary
+    color: $primary
